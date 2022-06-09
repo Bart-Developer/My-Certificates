@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Zen+Dots&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@300&display=swap');
+
 
 *,
 *::after,
@@ -8,6 +10,10 @@
 	box-sizing: border-box;
 }
 
+p{
+		font-family: 'Roboto', sans-serif;
+		font-weight: bolder;
+}
 .fab{
     transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
@@ -38,7 +44,7 @@ body {
   --color-link: #0d2577;
   --color-link-hover: #b045f8;
   --color-info: #272625;
-  --grid-item-bg: #ffffff;
+  --grid-item-bg: #fff2db;
 	font-family: 'Zen Dots', cursive;
 	min-height: 100vh;
 	color: var(--color-text, #272625);
