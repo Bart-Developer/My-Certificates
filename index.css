@@ -14,6 +14,7 @@ p{
 		font-family: 'Roboto', sans-serif;
 		font-weight: bolder;
 }
+
 .fab{
     transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
@@ -32,7 +33,7 @@ background-size: cover;
 }
 
 .grid-wrap{
-	margin-top: 15px;
+	margin-top: 25px;
 	border: 10px solid wheat;
 	background-color: #fff2db;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;	
@@ -335,7 +336,6 @@ button.content__close:hover {
 		display: flex;
 		text-align: center;
 	}
-
 	.grid__item-number {
 		right: -2.45rem;
 	}
@@ -348,8 +348,17 @@ button.content__close:hover {
 	}
 	.content__indicator {
 		display: block;
-	}
+	}			
 }
 
-
-
+@media screen and (max-width: 450px) {
+	.navbar>.container,
+		.navbar>.container-fluid,
+		.navbar>.container-lg,
+		.navbar>.container-md,
+		.navbar>.container-sm,
+		.navbar>.container-xl,
+		.navbar>.container-xxl {
+			flex-wrap: nowrap !important;
+		}
+ }
